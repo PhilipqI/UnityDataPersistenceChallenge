@@ -25,6 +25,6 @@ public class MenuUIHandler : MonoBehaviour
     public void SetName(string name)
     {
         Debug.Log(name);
-        DataMainManager.Instance.PlayerName = name;
+        DataNameManager.Instance.PlayerName = name;
     }
 }

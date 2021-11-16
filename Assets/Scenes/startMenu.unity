@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14fb7d21211eb5d438fcd32a19840741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
+  PlayerName: 
 --- !u!4 &897114564
 Transform:
   m_ObjectHideFlags: 0
@@ -1124,7 +1124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PingPong
+  m_Text: Simple Breakout
 --- !u!222 &1668921217
 CanvasRenderer:
   m_ObjectHideFlags: 0

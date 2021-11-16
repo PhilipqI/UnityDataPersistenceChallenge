@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
-public class DataMainManager : MonoBehaviour
+public class DataNameManager : MonoBehaviour
 {
-    public static DataMainManager Instance;
+    public static DataNameManager Instance;
 
     public string PlayerName;
 
@@ -18,5 +19,5 @@ public class DataMainManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
-    }
+    }    
 }
